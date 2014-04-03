@@ -1,0 +1,18 @@
+-- Installation
+ - Install Express Globally: `sudo npm install -g express`
+ - Update package.json to include MongoDB and Monk modules
+ - Install node modules: `npm install`
+
+/*
+	This will create base application.
+	Run application: node app
+*/
+
+-- Exercise 1 'Hello World': Create a new Route to present new View "Hello, World!"
+ - Add new URL without creating a new directory under views: app.get('/directory', routes.filename);
+ - Route the URL through route/index.js. Response is to render helloworld template when route is accessed.
+ - Create helloworld template in /views: 'helloworld.ejs'
+
+-- Exercise 2 Installing MongoDB
+ - Install MongoDB from http://mongodb.org via terminal shell, which will allow you to use 'mongod' commands: `http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/`
+ - 
