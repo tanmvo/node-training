@@ -14,5 +14,7 @@
  - Create helloworld template in /views: 'helloworld.ejs'
 
 -- Exercise 2 Installing MongoDB
- - Install MongoDB from http://mongodb.org via terminal shell, which will allow you to use 'mongod' commands: `http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/`
- - 
+ - Install MongoDB from http://mongodb.org via terminal homebrew, which will allow you to use 'mongod' commands:  
+ - from the ~ directory, create MongoDB instance in the project with the command sudo mongod --dbpath ~/tutorial/data/db: Should output in terminal as `all output going to: /usr/local/var/log/mongodb/mongo.log`
+ - Open another terminal shell and run 'mongo'
+ - Switch to the app's MongoDB instance by typing 'use tutorial': `tutorial` is the Basedirectory of the app folder
